@@ -16,7 +16,10 @@ const languages = {
   },
 };
 
+let currentLanguage = 'en'; // Set the default language to English
+
 function updateLanguage(language) {
+  currentLanguage = language; // Update the currentLanguage variable
   document.getElementById('heading').innerText = languages[language].heading;
   document.getElementById('countdown').innerText = languages[language].countdown;
   document.getElementById('celebrationsMessage').innerText = languages[language].celebrations;
