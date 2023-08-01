@@ -1,4 +1,9 @@
 const languages = {
+  mo: {
+    heading: "Happy Moomin, Ksenia!",
+    countdown: "Time left: ",
+    celebrations: "🎉 Happy Moomin! 🎉",
+  },
   en: {
     heading: "Happy Birthday, Ksenia!",
     countdown: "Time left: ",
@@ -16,7 +21,7 @@ const languages = {
   },
 };
 
-let currentLanguage = 'en'; // Set the default language to English
+let currentLanguage = 'mo'; // Set the default language to English
 
 function updateLanguage(language) {
   currentLanguage = language; // Update the currentLanguage variable
