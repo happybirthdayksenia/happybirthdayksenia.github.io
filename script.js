@@ -34,7 +34,7 @@ function updateCountdown() {
     const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
 
     document.getElementById('countdown').innerHTML =
-      languages[getCurrentLanguage()].countdown + hours + 'h ' + minutes + 'm ' + seconds + 's';
+      languages[currentLanguage].countdown + hours + 'h ' + minutes + 'm ' + seconds + 's';
 
     document.getElementById('countdown').style.display = 'block';
     document.getElementById('celebrationsMessage').style.display = 'none';
