@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 50px;
+}
+
+#countdown {
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+#celebrationsMessage {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  display: none;
+}
+
+#note {
+  font-size: 1rem;
+  margin-top: 50px;
+  color: #999;
+}
+
+#language-switch {
+  margin-top: 20px;
+}
+
+#language-switch button {
+  font-size: 1rem;
+  margin: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
