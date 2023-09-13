@@ -1,8 +1,8 @@
 const languages = {
   en: {
-    heading: "Ksenia's and Simon's vacation at Moscow!",
+    heading: "Ksenia's and Simon's vacation in Moscow!",
     countdown: "Ksenia and Simon will be happy in: ",
-    celebrations: "❤️ Simon it at Moscow! ❤️",
+    celebrations: "❤️ Simon it in Moscow! ❤️",
   },
   de: {
     heading: "Ksenias und Simons Urlaub in Moskau!",
