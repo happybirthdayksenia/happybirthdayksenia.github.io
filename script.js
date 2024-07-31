@@ -1,22 +1,27 @@
 const languages = {
+  mo: {
+    heading: "Happy Moomin, Ksenia!",
+    countdown: "Time left: ",
+    celebrations: "🎉 Happy Moomin! 🎉",
+  },
   en: {
-    heading: "Ksenia's and Simon's vacation in Moscow!",
-    countdown: "Ksenia and Simon will be happy in: ",
-    celebrations: "❤️ Simon it in Moscow! ❤️",
+    heading: "Happy Birthday, Ksenia!",
+    countdown: "Time left: ",
+    celebrations: "🎉 Celebrations! 🎉",
   },
   de: {
-    heading: "Ksenias und Simons Urlaub in Moskau!",
-    countdown: "Ksenia und Simon werden glücklich sein in: ",
-    celebrations: "❤️ Simon ist in Moskau! ❤️",
+    heading: "Herzlichen Glückwunsch zum Geburtstag, Ksenia!",
+    countdown: "Verbleibende Zeit: ",
+    celebrations: "🎉 Feiern! 🎉",
   },
   ru: {
-    heading: "Отдых Ксении и Саймона в Москве!",
-    countdown: "Ксения и Саймон будут счастливы через: ",
-    celebrations: "❤️ Саймон это в Москве! ❤️",
+    heading: "С днем рождения, Ксения!",
+    countdown: "Осталось времени: ",
+    celebrations: "🎉 Праздничные мероприятия! 🎉",
   },
 };
 
-let currentLanguage = 'en'; // Set the default language to English
+let currentLanguage = 'mo'; // Set the default language to English
 
 function updateLanguage(language) {
   currentLanguage = language; // Update the currentLanguage variable
@@ -25,7 +30,7 @@ function updateLanguage(language) {
   document.getElementById('celebrationsMessage').innerText = languages[language].celebrations;
 }
 
-const birthdayDate = new Date('2023-12-30T19:35:00+03:00');
+const birthdayDate = new Date('2024-08-02T00:00:00+07:00');
 
 function updateCountdown() {
   const now = new Date().getTime();
